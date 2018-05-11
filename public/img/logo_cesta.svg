@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="6341 -1161 168.642 156.823">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7e7e7e;
+      }
+
+      .cls-2 {
+        fill: #ff2b2a;
+      }
+
+      .cls-3 {
+        fill: #fbcb43;
+      }
+
+      .cls-4 {
+        fill: #e08816;
+      }
+
+      .cls-5 {
+        fill: #3299d9;
+      }
+
+      .cls-6, .cls-7 {
+        fill: none;
+        stroke: #7e7e7e;
+        stroke-width: 10px;
+      }
+
+      .cls-7 {
+        stroke-linecap: square;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g id="g2514" transform="translate(6346 -1156)">
+    <g id="g2622" transform="translate(0 0)">
+      <g id="g1168" transform="translate(0 0)">
+        <path id="path2554" class="cls-1" d="M253.583,311.412c-2.652.152-5.121.884-4.281,5.727l-1.035-6Z" transform="translate(-244.233 -242.772)"/>
+        <path id="path2556" class="cls-1" d="M780.083,317.006c.257-2.644-.073-4.995-4.988-4.909l6.2.063Z" transform="translate(-626.418 -243.464)"/>
+        <g id="g3158" transform="translate(24.686 44.569)">
+          <g id="g2566" transform="translate(76.839 0)">
+            <rect id="rect2562" class="cls-2" width="21.938" height="66.946" rx="3.23" transform="matrix(0.994, -0.109, 0.109, 0.994, 3.353, 26.684)"/>
+            <rect id="rect2564" class="cls-2" width="21.972" height="13.156" rx="2.982" transform="translate(0 2.542) rotate(-6.644)"/>
+          </g>
+          <g id="g2572" transform="translate(52.44 1.287)">
+            <rect id="rect2568" class="cls-3" width="17.364" height="12.959" rx="3.37" transform="translate(4.164)"/>
+            <rect id="rect2570" class="cls-3" width="22.012" height="65.07" rx="2.705" transform="translate(0 26.32)"/>
+          </g>
+          <g id="g2578" transform="translate(0 1.238)">
+            <rect id="rect2574" class="cls-4" width="18.981" height="65.07" rx="2.699" transform="translate(0 25.979)"/>
+            <rect id="rect2576" class="cls-4" width="18.981" height="12.425" rx="2.699" transform="translate(0.24)"/>
+          </g>
+          <g id="g2584" transform="translate(23.886 1.18)">
+            <rect id="rect2580" class="cls-5" width="22.857" height="65.07" rx="2.699" transform="translate(0 26.311)"/>
+            <rect id="rect2582" class="cls-5" width="22.857" height="12.561" rx="2.775" transform="translate(0.096)"/>
+          </g>
+        </g>
+        <path id="path2586" class="cls-6" d="M238.582,296.891l146.72-.05c4.266-.082,7.254,1.138,6.617,6.052l-.032.2-.028.177-2.244,13.941-8.187,50.857c-2.99,6.819-7.96,10.281-14.5,11.091l-107.614.062c-10.341-1.316-13.708-6.287-15.7-11.98l-10.033-64.312-.217-1.392c0-3.4,2.167-4.49,5.213-4.643Z" transform="translate(-233.369 -232.395)"/>
+        <g id="Group_583" data-name="Group 583" transform="translate(64.933 0)">
+          <g id="g2560" transform="translate(0)">
+            <circle id="circle2558" class="cls-7" cx="14.43" cy="14.43" r="14.43"/>
+          </g>
+          <path id="path2588" class="cls-1" d="M496.25,162.011c1.594,4.591,7.5,5.685,9.815.069l-.343-64.452c-1.687-5.7-8.674-3.76-9.2-.137Z" transform="translate(-486.728 -85.269)"/>
+        </g>
+        <g id="g2620" transform="translate(32.243 91.916)">
+          <g id="g2594" transform="translate(82.916 4.465)">
+            <circle id="circle2590" class="cls-1" cx="4.756" cy="4.756" r="4.756" transform="translate(0.194)"/>
+            <circle id="circle2592" class="cls-1" cx="4.756" cy="4.756" r="4.756" transform="translate(0 19.802)"/>
+          </g>
+          <g id="g2600" transform="translate(62.599 4.465)">
+            <circle id="circle2596" class="cls-1" cx="4.756" cy="4.756" r="4.756" transform="translate(0.194)"/>
+            <circle id="circle2598" class="cls-1" cx="4.756" cy="4.756" r="4.756" transform="translate(0 19.802)"/>
+          </g>
+          <g id="g2606" transform="translate(40.804)">
+            <circle id="circle2602" class="cls-1" cx="6.205" cy="6.205" r="6.205" transform="translate(0.253)"/>
+            <circle id="circle2604" class="cls-1" cx="6.205" cy="6.205" r="6.205" transform="translate(0 25.835)"/>
+          </g>
+          <g id="g2612" transform="translate(20.317 4.465)">
+            <circle id="circle2608" class="cls-1" cx="4.756" cy="4.756" r="4.756" transform="translate(0.194)"/>
+            <circle id="circle2610" class="cls-1" cx="4.756" cy="4.756" r="4.756" transform="translate(0 19.802)"/>
+          </g>
+          <g id="g2618" transform="translate(0 4.465)">
+            <circle id="circle2614" class="cls-1" cx="4.756" cy="4.756" r="4.756" transform="translate(0.194)"/>
+            <circle id="circle2616" class="cls-1" cx="4.756" cy="4.756" r="4.756" transform="translate(0 19.802)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

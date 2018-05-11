@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "projetocartolada",
+  "private_key_id": "1b0e331acb0a15ce69a41859aa3a7d0f1c621177",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDBAXHEalhvtf8G\nIZ/PbSlnfhTNlqbfBS9XT8ls0CuKhWB8ZnzD5rvwGIoclPWY2z1/Kp7/mDSFbha8\nA3MJfUSrTpAPgIN3371bIR/TZUADju3cWpxq4VugfQOQGq2ujkH+51q7bkACqTB5\n8vUrIqhNn4BmUgT3gM7N8utfeEvzTTGGAryL63kRYlc+Ly1rjwh5QQ2++ZMJ8EcA\n0wVy4LOz9b14Eb4qgaawaJzxw7s26wcnYwwztaFK/zHSAVsffkf5F2kiqGkfLnW1\nU+8mA4p/fJASZJYlxkCXj64YOR/rIiR39+TTbmKfD/lJiQbTZObMrnmG2qXj/3x+\nvMqBy5QXAgMBAAECggEADy4QZxzgIMUlLjPF0Hgq+f9SHotbS44qV4koc/z5d7ce\nzBn5dST4Ih2j+zSCDogr0Y0mHT843ke21QnGafgmxvxyWy3F6U85Iuo7iRJdEwqS\nTbL4u3VHEhvTBGn8wA5jRWun2LcGpM7ux6CixMZAi35giGuqBVdlrJAPEB6zhoqo\nHjEMYDlgvenSR9cACce5CBJUhBFdmYwwRi1N0/H+LoJCAsMgt1aZScUgTa8IWIYS\nUcJq2bokUzXZ1d2rR4U8EaOnefC8eWBxjd/XPhHa8h/0gm6b/MgB9AeMHMth7Vgs\nPsAcX6FsmWrl61Lo1IaDzRfX4vnbbztUwZ3GH3e+eQKBgQDzm6uzTxjBS+0QA/mQ\neXmPrqvGeNbhCEpvSUNOTMMu4b7Qw5CzjTozmOtVNe7MEH29SnlqALhY1XsH2pU6\nZ6DTbO164ttFUvxHWbw5EB2rp+FqrOx0BmxWWPIA/Vi9unbzKWVNvcOuIE/Al4ao\ni4eXrNgFKKTmO9ifpGP88CjX6QKBgQDK0tCwH9sJ2om0tOTJ7bNK9d+Sy5E997mr\nAATs5jR1OeTaB6lroyYX0DlPPhyy+k2o1NrnANpEMfZxDTmpHVsBOxlP1kB96Ogb\n0RslETMfx9ebYcnDJJdW4rwp5aKwLaJZBKclPVwGFAuFsMBUn8FIF2Muq/Ltqthq\nuX3kITmL/wKBgQCV4KPd2P8xBcafgOKNeb9JoDy9CmGh59jr6RZI2T+I24jrpjaj\n0XMKhb3cGieGU2sZB/X1OuYweX+NUHVZjqJLEgx1+5bOawUd3N7J+NlYYBx25lc/\n9ye2ZFjYNQbhDBTc/A4Aq4z115lZs6A8mEPfFI9/dQcnQ5C+f4So/RUT6QKBgGCA\necazAXbowgh24TyqmloaLmwb61k+mtqfwbgtt9vm1dpfNt7920wNSJdJiEIoEfc4\nf4bVwwQbeZREpKCwVPJ6+gogeMLvpDBIB9BVJKwEW7OUjXkJ2e//JWQR3JxSuiH8\nssJnNXe25dyQQpKBCGeSqSA1s/odBaeR5jI7FLRlAoGAewR8B/BSj1//q3TEPz/M\nGRzrtN9zg3Mt8BOF6gqXahg10QzjpeZJnv/Qim5wWJekr77i4ji7uA9tUhcWDei4\ni998OqW13MWCAxa5nz+UxhGNVFe4T9ZGGJu+cw1HFpmDUAEG1J0cvkuAmBZK40Ty\nfYcJhZwZENmXTYl8whsGxBM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "chave-get-url-files@projetocartolada.iam.gserviceaccount.com",
+  "client_id": "113876100457409496362",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chave-get-url-files%40projetocartolada.iam.gserviceaccount.com"
+}

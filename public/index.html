@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN"
+"http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>mibuy 4business</title>
+
+    <!-- bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- importing google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Raleway|Roboto" rel="stylesheet">
+
+    <link rel="shortcut icon" href="img/favicon_mibuy.ico">
+
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+
+  </head>
+  <body>
+
+    <!-- Login -->
+    <div class="tela-login text-center">
+
+      <!-- form login -->
+      <form class="form-signin" id="formSignIn">
+        <img class="mb-2" src="img/mibuy_logo_svg.svg" width="120" height="120" alt="Logo mibuy">
+        <h1 class="h3 mb-5" id="write_mibuy"></h1>
+        <label for="inputEmail" class="sr-only">Email</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus> 
+        <label for="inputPassword" class="sr-only">Senha</label>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+        <button class="btn btn-lg btn-primary btn-block" id="btnEntrar">
+          Entrar
+        </button>
+        <div class="alert alert-danger d-none" role="alert" id="errorLogin"></div>
+        <p class="mt-5 mb-4 text-muted">&copy; 2018</p>
+        <a id="linkEsqueciSenha" class="link-form mt-5 mb-4 text-muted">
+          <i class="far fa-question-circle"></i>
+          Esqueci a senha
+        </a>
+      </form>
+
+      <!-- form esqueci senha -->
+      <form class="form-signin d-none" id="formSenha">
+        <h1 class="h3 mb-3 title-form">Recuperação de senha</h1>
+        <h2 class="h6 mb-3 text-muted">Informe seu email para recuperar sua senha</h2>
+        <label for="inputEmail" class="sr-only">Email</label>
+        <input type="email" id="inputEmailSenha" class="form-control" placeholder="Email" required autofocus> 
+        <button class="btn btn-lg btn-primary btn-block mt-3" id="btnEnviarSenha">
+          Enviar
+        </button>
+        <div class="alert alert-danger d-none" role="alert" id="errorSenha"></div>
+        <p class="mt-5 mb-4 text-muted">&copy; 2018</p>
+        <a id="linkVoltarFormSignIn" class="link-form mt-5 mb-4 text-muted">
+          Voltar
+        </a>
+      </form>
+
+    </div>  
+
+    <header class="afterLogin">
+      <div class="container">
+        <div class="row">
+          <div class="col justify-content-start align-self-center">
+            <h1 class="title-header"><span class="custom-mibuy">mibuy</span> 4business</h1>
+            <h6 clss="subtitle-header">Logado como <span id="mercadoLogado"></span></h6>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <img src="img/logo_cesta.svg" alt="Logo Mibuy" class="img-fluid logo-header">
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container container-btns-header afterLogin">
+
+      <div class="row">
+
+        <button class="col btn btn-header btn-change-tab btn-pedido active-tab" id="btn-novos">
+          <!-- Novos -->
+          <svg xmlns="http://www.w3.org/2000/svg" id="ic_tab_novos" viewBox="7229 3956 49.158 39.327">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: rgba(255,255,255,0.6);
+                }
+              </style>
+            </defs>
+            <path id="ic_novo_active" class="cls-10" d="M46.242,4H6.916A4.878,4.878,0,0,0,2.025,8.916L2,38.411a4.9,4.9,0,0,0,4.916,4.916H46.242a4.9,4.9,0,0,0,4.916-4.916V8.916A4.9,4.9,0,0,0,46.242,4ZM17.976,31.037H15.027l-6.268-8.6v8.6H5.687V16.29H8.759l6.145,8.6v-8.6h3.072Zm12.29-11.651H24.121v2.753h6.145v3.1H24.121v2.728h6.145v3.072H20.434V16.29h9.832Zm17.205,9.193a2.465,2.465,0,0,1-2.458,2.458H35.182a2.465,2.465,0,0,1-2.458-2.458V16.29H35.8V27.375h2.777V18.723h3.072V27.35H44.4V16.29h3.072Z" transform="translate(7227 3952)"/>
+          </svg>
+          
+        </button>
+  
+        <button class="col  btn btn-header btn-change-tab btn-pedido" id="btn-confirmados">
+          <!-- Confirmados -->
+          <svg xmlns="http://www.w3.org/2000/svg" id="ic_tab_confirmados" viewBox="7258 3149 54.55 41.532">
+            <defs>
+              <style>
+                .cls-10 {
+                  fill: rgba(255,255,255,0.6);
+                  padding: 10px;
+                }
+              </style>
+            </defs>
+            <path id="ic_confirmado_nao_confirmado" class="cls-10" d="M20.757,38.454,7.739,25.436,3.4,29.776,20.757,47.132,57.95,9.939,53.611,5.6Z" transform="translate(7254.6 3143.4)"/>
+          </svg>
+        </button>
+  
+        <button class="col  btn btn-header btn-change-tab btn-pedido" id="btn-prontos">
+          <!-- Prontos -->
+          <svg xmlns="http://www.w3.org/2000/svg" id="ic_tab_prontos" viewBox="7254 3409 61.911 66.047">
+            <g id="ic_box_nao_confirmado" transform="translate(7099 2560)">
+              <g id="Group_655" data-name="Group 655" transform="translate(155 849)">
+                <g id="Group_654" data-name="Group 654" transform="translate(0 0)">
+                  <path id="Path_198" data-name="Path 198" class="cls-10" d="M77.4,14.573,47.408.1a.968.968,0,0,0-.841,0L16.579,14.573a.967.967,0,0,0-.547.871V50.6a.967.967,0,0,0,.547.871L46.567,65.951a.968.968,0,0,0,.841,0L77.4,51.474a.967.967,0,0,0,.547-.871V15.444A.968.968,0,0,0,77.4,14.573ZM46.988,2.041l27.763,13.4L66.7,19.329a.959.959,0,0,0-.164-.1L38.964,5.915ZM36.779,7.008,64.5,20.392l-5.678,2.741L31.113,9.755ZM65.15,22.227V32.359l-5.3,2.56V24.787ZM76.008,50,47.955,63.538V30.528l11.174-5.452a.967.967,0,0,0-.841-1.743l-11.3,5.513-7.664-3.742a.967.967,0,1,0-.841,1.743l7.537,3.681v33.01L17.967,50V16.985L39.329,27.3a.967.967,0,0,0,.841-1.743L19.225,15.444l9.611-4.64L57.9,24.834l.013.017v11.61a.968.968,0,0,0,1.388.871l7.239-3.494a.967.967,0,0,0,.547-.871V21.293l8.923-4.308V50Z" transform="translate(-16.032 0.001)"/>
+                </g>
+              </g>
+            </g>
+          </svg>
+        </button>
+  
+        <button class="col btn btn-header btn-change-tab btn-pedido" id="btn-retirados">
+          <!-- Retirados -->
+
+          <svg xmlns="http://www.w3.org/2000/svg" id="ic_tab_retirados" viewBox="7254 3685 54.255 59.188">
+            <path id="ic_hand_nao_confirmado" class="cls-10" d="M55.255,13.564V49.323a9.894,9.894,0,0,1-9.865,9.865h-18a9.848,9.848,0,0,1-7.029-2.935L1,36.573S4.107,33.54,4.206,33.49a2.922,2.922,0,0,1,1.948-.715,3.013,3.013,0,0,1,1.48.395c.1.025,10.629,6.067,10.629,6.067V9.865a3.7,3.7,0,0,1,7.4,0V27.128h2.466V3.7a3.7,3.7,0,0,1,7.4,0V27.128h2.466V6.165a3.7,3.7,0,0,1,7.4,0V27.128h2.466V13.564a3.7,3.7,0,0,1,7.4,0Z" transform="translate(7253 3685)"/>
+          </svg>
+
+        </button>
+  
+        <button class="col btn btn-header btn-change-tab btn-pedido" id="btn-perfil">
+            <svg xmlns="http://www.w3.org/2000/svg" id="ic_tab_perfil" viewBox="7165 4079 38.544 38.544">
+              <path id="ic_perfil" class="cls-10" d="M3,7.283V37.262a4.282,4.282,0,0,0,4.283,4.283H37.262a4.3,4.3,0,0,0,4.283-4.283V7.283A4.3,4.3,0,0,0,37.262,3H7.283A4.282,4.282,0,0,0,3,7.283Zm25.7,8.565a6.424,6.424,0,1,1-6.424-6.424A6.415,6.415,0,0,1,28.7,15.848ZM9.424,32.979c0-4.283,8.565-6.638,12.848-6.638S35.12,28.7,35.12,32.979V35.12H9.424Z" transform="translate(7162 4076)"/>
+            </svg>
+        </button>
+
+      </div>
+
+    </div>  
+
+    <!-- container lista pedidos novos -->
+    <section id="novos" class="lista justify-content-center active afterLogin">
+      <div class="container-pedidos container-main-card col-md-10 col-xs-12">
+        <ul class="list-group list-group-flush lista-pedidos" id="lista-pedidos-novos">
+          <!-- items here -->
+        </ul>
+        <img src="img/mibuy_logo_empty.png" class="d-none img-fluid" id="sem-pedidos-novos" width="150" height="150" alt="Logo vazio">
+      </div>
+    </section> 
+    
+    <!-- container lista pedidos confirmados -->
+    <section id="confirmados" class="lista justify-content-center afterLogin">
+      <div class="container-pedidos container-main-card col-md-10 col-xs-12">
+        <ul class="list-group list-group-flush lista-pedidos" id="lista-pedidos-confirmados">
+          <!-- items here -->
+        </ul>
+        <img src="img/mibuy_logo_empty.png" class="d-none img-fluid" id="sem-pedidos-confirmados" width="150" height="150" alt="Logo vazio">
+      </div>
+    </section>  
+
+    <!-- container lista pedidos prontos -->
+    <section id="prontos" class="lista justify-content-center afterLogin">
+      <div class="container-pedidos container-main-card col-md-10 col-xs-12">
+        <ul class="list-group list-group-flush lista-pedidos" id="lista-pedidos-prontos">
+          <!-- items here -->
+        </ul>
+        <img src="img/mibuy_logo_empty.png" class="d-none img-fluid" id="sem-pedidos-prontos" width="150" height="150" alt="Logo vazio">
+      </div>
+    </section>  
+
+    <!-- container lista pedidos retirados -->
+    <section id="retirados" class="lista justify-content-center afterLogin">
+      <div class="container-pedidos container-main-card col-md-10 col-xs-12">
+        <ul class="list-group list-group-flush lista-pedidos" id="lista-pedidos-retirados">
+          <!-- items here -->
+        </ul>
+        <img src="img/mibuy_logo_empty.png" class="d-none img-fluid" id="sem-pedidos-retirados" width="150" height="150" alt="Logo vazio">
+      </div>
+    </section> 
+    
+    <!-- container perfil mercado -->
+    <section id="perfil" class="lista justify-content-center afterLogin">
+      <div class="container-perfil container-main-card col-md-10 col-xs-12">
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="aside-menu">              
+              <a href="#" class="active" id="infoPerfilTab">Perfil</a>
+              <a href="#" id="uploadBdTab">Banco de dados</a>
+              <a href="#" id="btnSair">Sair</a>
+            </div>
+          </div>
+          <div class="col-md-8 conteudo">
+
+            <section id="infoPerfilSection" class="active">
+              <i class="material-icons">store</i>
+              <h1 id="nome-mercado-perfil"></h1>
+            </section>
+
+            <section id="uploadBdSection">
+              <h1>Faça o upload de seu banco de dados por aqui</h1>
+              <div class="arquivos-salvos col-md-12"> 
+                <div class="container">
+                  <div class="row" id="container-arquivos">
+                    <!-- arquivos -->
+                  </div>
+                </div>
+              </div>
+              <div class="uploadInput">
+                <label id="label-input-bd-mercado" class="label-inputs" for='input-bd-mercado'>
+                  Escolher
+                </label>
+                <input type="file" name="arq" id="input-bd-mercado" value="upload">
+                <p class="file-data">Nenhum arquivo selecionado</p>
+              </div>
+
+              <div class="container-btn-upload">
+                <progress value="0" max="100" id="progressUpload">0%</progress>
+                <button class="label-inputs btn-perfil" id="btnUpload">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="7223 4088 48.902 32.601">
+                      <path id="upload_file" class="ic-upload-file" d="M39.427,16.307A15.267,15.267,0,0,0,10.9,12.232,12.22,12.22,0,0,0,12.225,36.6H38.714a10.159,10.159,0,0,0,.713-20.294Zm-10.9,6.031v8.15h-8.15v-8.15H14.263L24.451,12.15,34.639,22.338Z" transform="translate(7223 4084)"/>
+                    </svg>
+                </button>
+              </div>
+            </section>
+
+          </div>
+        </div>
+
+      </div>
+    </section>  
+
+    <!-- snackbar -->
+
+    <div id="snackbarNotificacao" class="mdl-js-snackbar mdl-snackbar">
+      <div class="mdl-snackbar__text"></div>
+      <button class="mdl-snackbar__action" type="button"></button>
+    </div>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    
+    <!-- JsBarcode -->
+    <script src="js/JsBarcode.all.min.js"></script>
+
+    <!-- bootstrap scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 
+
+    <!-- firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>  
+
+    <!-- import local scripts -->
+    <script src="js/main.js"></script>
+
+  </body>
+</html>

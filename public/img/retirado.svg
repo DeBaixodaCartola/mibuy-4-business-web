@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="11214 2656 118 116">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e08816;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_250);
+      }
+    </style>
+    <filter id="Rectangle_250" x="11214" y="2656" width="118" height="116" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="retirado" transform="translate(10973 2570)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -10973, -2570)">
+      <rect id="Rectangle_250-2" data-name="Rectangle 250" class="cls-1" width="112" height="110" rx="2" transform="translate(11217 2658)"/>
+    </g>
+    <path id="ic_pan_tool_24px" class="cls-2" d="M55.255,13.564V49.323a9.894,9.894,0,0,1-9.865,9.865h-18a9.848,9.848,0,0,1-7.029-2.935L1,36.573S4.107,33.54,4.206,33.49a2.922,2.922,0,0,1,1.948-.715,3.013,3.013,0,0,1,1.48.395c.1.025,10.629,6.067,10.629,6.067V9.865a3.7,3.7,0,0,1,7.4,0V27.128h2.466V3.7a3.7,3.7,0,0,1,7.4,0V27.128h2.466V6.165a3.7,3.7,0,0,1,7.4,0V27.128h2.466V13.564a3.7,3.7,0,0,1,7.4,0Z" transform="translate(270 113)"/>
+  </g>
+</svg>

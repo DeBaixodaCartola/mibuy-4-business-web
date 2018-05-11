@@ -1,0 +1,24 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+      
+    "Produtos": {
+      ".indexOn":["nome_completo","categoria","unidade"]
+    },
+    
+    "UsuariosMibuy": {
+      ".indexOn":["imagem_perfil","nome","status", "cpf"]
+    },
+    
+    "Empresa": {
+      ".indexOn":["imagem_empresa","nome","cnpj", "cep"]
+    },
+    
+    "Feed": {
+      ".indexOn":["imagem","nome","img_user", "nome_user", "preco"]
+    }
+    
+  }
+}
+

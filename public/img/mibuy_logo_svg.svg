@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8804.816 -835.649 609.175 568.101">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #7e7e7e;
+      }
+
+      .cls-2 {
+        fill: #ff2b2a;
+      }
+
+      .cls-3 {
+        fill: #fbcb43;
+      }
+
+      .cls-4 {
+        fill: #e08816;
+      }
+
+      .cls-5 {
+        fill: #3299d9;
+      }
+
+      .cls-6, .cls-7 {
+        fill: none;
+        stroke: #7e7e7e;
+      }
+
+      .cls-6 {
+        stroke-width: 31.367px;
+      }
+
+      .cls-7 {
+        stroke-linecap: square;
+        stroke-linejoin: round;
+        stroke-width: 35.299px;
+      }
+    </style>
+  </defs>
+  <g id="Mibuy_logo_big_circles" transform="translate(7839.155 -815.674)">
+    <g id="g2514" transform="translate(-1111.918 664.777)">
+      <g id="g2622" transform="translate(706 10)">
+        <g id="g1168" transform="translate(1153.686 -739.224)">
+          <path id="path2554" class="cls-1" d="M267.632,312.125c-9.659.552-18.651,3.22-15.594,20.861l-3.771-21.844Z"/>
+          <path id="path2556" class="cls-1" d="M793.263,329.983c.937-9.63-.267-18.192-18.168-17.879l22.569.23Z"/>
+          <g id="g3158" transform="translate(4.587)">
+            <g id="g2566" transform="translate(1.279 -0.506)">
+              <rect id="rect2562" class="cls-2" width="79.902" height="243.833" rx="3.23" transform="matrix(0.994, -0.109, 0.109, 0.994, 609.702, 322.147)"/>
+              <rect id="rect2564" class="cls-2" width="80.028" height="47.918" rx="2.982" transform="translate(597.49 234.218) rotate(-6.644)"/>
+            </g>
+            <g id="g2572">
+              <rect id="rect2568" class="cls-3" width="63.245" height="47.199" rx="3.37" transform="translate(525.068 229.139)"/>
+              <rect id="rect2570" class="cls-3" width="80.174" height="237" rx="2.705" transform="translate(509.902 325.002)"/>
+            </g>
+            <g id="g2578">
+              <rect id="rect2574" class="cls-4" width="69.132" height="237" rx="2.699" transform="translate(318.902 323.583)"/>
+              <rect id="rect2576" class="cls-4" width="69.132" height="45.255" rx="2.699" transform="translate(319.776 228.962)"/>
+            </g>
+            <g id="g2584">
+              <rect id="rect2580" class="cls-5" width="83.25" height="237" rx="2.699" transform="translate(405.902 324.583)"/>
+              <rect id="rect2582" class="cls-5" width="83.25" height="45.75" rx="2.775" transform="translate(406.25 228.75)"/>
+            </g>
+          </g>
+          <path id="path2586" class="cls-6" d="M252.355,297.033l534.391-.182c15.539-.3,26.422,4.146,24.1,22.042l-.116.722-.1.643-37.992,236.01c-10.89,24.836-28.994,37.445-52.8,40.4l-391.956.225c-37.664-4.792-49.929-22.9-57.181-43.634L234.16,319.015l-.791-5.071c0-12.383,7.893-16.353,18.986-16.912Z" transform="translate(0.207)"/>
+          <g id="Group_583" data-name="Group 583" transform="translate(8.508)">
+            <g id="g2560">
+              <circle id="circle2558" class="cls-7" cx="52.557" cy="52.557" r="52.557" transform="translate(461.568 62.121)"/>
+            </g>
+            <path id="path2588" class="cls-1" d="M496.25,341.634c5.806,16.723,27.314,20.706,35.75.25l-1.25-234.75c-6.145-20.771-31.591-13.694-33.5-.5Z"/>
+          </g>
+          <g id="g2620">
+            <g id="g2594">
+              <circle id="circle2590" class="cls-1" cx="17.324" cy="17.324" r="17.324" transform="translate(653.72 413.164)"/>
+              <circle id="circle2592" class="cls-1" cx="17.324" cy="17.324" r="17.324" transform="translate(653.013 485.288)"/>
+            </g>
+            <g id="g2600" transform="translate(-74)">
+              <circle id="circle2596" class="cls-1" cx="17.324" cy="17.324" r="17.324" transform="translate(653.72 413.164)"/>
+              <circle id="circle2598" class="cls-1" cx="17.324" cy="17.324" r="17.324" transform="translate(653.013 485.288)"/>
+            </g>
+            <g id="g2606">
+              <circle id="circle2602" class="cls-1" cx="22.602" cy="22.602" r="22.602" transform="translate(500.553 396.902)"/>
+              <circle id="circle2604" class="cls-1" cx="22.602" cy="22.602" r="22.602" transform="translate(499.63 490.998)"/>
+            </g>
+            <g id="g2612" transform="translate(-228)">
+              <circle id="circle2608" class="cls-1" cx="17.324" cy="17.324" r="17.324" transform="translate(653.72 413.164)"/>
+              <circle id="circle2610" class="cls-1" cx="17.324" cy="17.324" r="17.324" transform="translate(653.013 485.288)"/>
+            </g>
+            <g id="g2618" transform="translate(-302)">
+              <circle id="circle2614" class="cls-1" cx="17.324" cy="17.324" r="17.324" transform="translate(653.72 413.164)"/>
+              <circle id="circle2616" class="cls-1" cx="17.324" cy="17.324" r="17.324" transform="translate(653.013 485.288)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

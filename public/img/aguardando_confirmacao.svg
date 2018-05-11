@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="8828 2656 118 116">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ccc;
+      }
+
+      .cls-2 {
+        fill: rgba(255,255,255,0.6);
+      }
+
+      .cls-3 {
+        filter: url(#Rectangle_251);
+      }
+    </style>
+    <filter id="Rectangle_251" x="8828" y="2656" width="118" height="116" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="aguardando_confirmacao" transform="translate(8827 2570)">
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -8827, -2570)">
+      <rect id="Rectangle_251-2" data-name="Rectangle 251" class="cls-1" width="112" height="110" rx="2" transform="translate(8831 2658)"/>
+    </g>
+    <path id="ic_done_24px" class="cls-2" d="M20.757,38.454,7.739,25.436,3.4,29.776,20.757,47.132,57.95,9.939,53.611,5.6Z" transform="translate(29.6 116.4)"/>
+  </g>
+</svg>
